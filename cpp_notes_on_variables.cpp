@@ -40,5 +40,12 @@ std::cout << " years old\n";
 std::cout << "Hello, I am " << age << " years old\n";
 // this is cleaner code and gives the same output. 
 
+// we use cout for output to the screen
+// cin is how we get input from the user
 
-}
+int tip = 0;    // interger variable tip set to 0
+  
+  std::cout << "Enter tip amount: "; // Prints enter tip ammount to screen
+  std::cin >> tip; // asks for a user input and assignes it to the variable tip
+  
+  std::cout << "You paid " << tip << " dollars.\n"; // chains two strings with user input tip
