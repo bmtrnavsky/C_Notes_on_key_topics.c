@@ -13,10 +13,32 @@ A variable is simply a name that represents a particular piece of your computerâ
 
   bool      truth values            true false
 
+  before we can use a variable it has to be created or declaired. 
+  To declair a variable you have to provide two things the type and a name for the variable. 
+
+  int score = 0;
+
+  int is the type, score is the name, = in C++ does not mean equalls its an assigner giving score the value 0. 
+  The ";" tells the program you are done with that statement
   
+  C++ is strongly typed if you try to use a float in a variable declaired as an int it will not convert it or fix it automagically like Python. 
+
+
 */
 
 #include <iostream>
 
 int main() {
-  std::cout << "Hello World!\n";
+  int age = 28;
+ 
+std::cout << "Hello, I am ";
+std::cout << age;
+std::cout << " years old\n";
+// outputs Hello, I am 28 years old
+// We can chain this together to get less lines like this:
+
+std::cout << "Hello, I am " << age << " years old\n";
+// this is cleaner code and gives the same output. 
+
+
+}
