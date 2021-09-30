@@ -19,6 +19,9 @@ A variable is simply a name that represents a particular piece of your computerâ
   int score = 0;
 
   int is the type, score is the name, = in C++ does not mean equalls its an assigner giving score the value 0. 
+
+  == represents is equal to or the same as. 
+  
   The ";" tells the program you are done with that statement
   
   C++ is strongly typed if you try to use a float in a variable declaired as an int it will not convert it or fix it automagically like Python. 
@@ -49,3 +52,6 @@ int tip = 0;    // interger variable tip set to 0
   std::cin >> tip; // asks for a user input and assignes it to the variable tip
   
   std::cout << "You paid " << tip << " dollars.\n"; // chains two strings with user input tip
+  
+
+}
